@@ -9,6 +9,6 @@ st.write(df_datos.enunciado)
 
 option = st.sidebar.selectbox(
      'Bloque',
-     list(df_datos.bloque))
+     df_datos.bloque.unique())
 
 st.write('Has seleccionado:', option)
