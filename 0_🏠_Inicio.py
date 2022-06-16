@@ -19,5 +19,5 @@ st.write('Has seleccionado:', option)
 st.image('lenna.png')
 
 df_datos.tags
-st.write(list(df_datos.tags.split(',')))
+st.write(df_datos.tags.split(','))
 #pd.DataFrame(list(df_datos.tags.split(','))).set_index(0)[1]
