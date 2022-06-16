@@ -19,3 +19,4 @@ st.write('Has seleccionado:', option)
 st.image('lenna.png')
 
 df_datos.tags
+pd.DataFrame(df_datos.tags).set_index(0)[1]
