@@ -7,8 +7,8 @@ df_datos = pd.read_csv('datos.csv',sep =';',encoding='latin-1')
 st.dataframe(df_datos)
 st.write(df_datos.enunciado)
 
-option = st.selectbox(
+option = st.sidebar.selectbox(
      'Bloque',
-     df_datos.enunciado)
+     df_datos.bloque)
 
 st.write('Has seleccionado:', option)
