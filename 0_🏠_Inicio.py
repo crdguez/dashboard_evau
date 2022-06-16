@@ -20,4 +20,5 @@ st.image('lenna.png')
 
 df_datos.tags
 st.write(df_datos.tags.str.split(',', expand=True))
+#pd.concat([dat1, dat2], axis=1)
 #pd.DataFrame(list(df_datos.tags.split(','))).set_index(0)[1]
