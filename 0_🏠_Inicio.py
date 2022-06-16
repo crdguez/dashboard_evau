@@ -14,4 +14,5 @@ option = st.sidebar.selectbox(
      df_datos.bloque.unique())
 
 st.write('Has seleccionado:', option)
-st.image('lenna.png', width = 150)
+#st.image('lenna.png', width = 150)
+st.image('lenna.png')
