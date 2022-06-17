@@ -35,7 +35,7 @@ code ="""
 """
 code ="""
 <iframe
-  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1#code={
+  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1&code={
  "cells": [
   {
    "cell_type": "code",
@@ -114,8 +114,7 @@ code ="""
   }
  },
  "nbformat": 4,
- "nbformat_minor": 4
-}"
+ "
   width="100%"
   height="500px"
 >
