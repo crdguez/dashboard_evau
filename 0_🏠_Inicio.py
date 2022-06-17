@@ -35,8 +35,8 @@ code ="""
 """
 code ="""
 <iframe
-  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1&code= import numpy as np
-  import pandas as pd
+  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1&code= import numpy as np \
+  import pandas as pd \
   2*3
  "
   width="100%"
