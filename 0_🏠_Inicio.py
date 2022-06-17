@@ -35,8 +35,7 @@ code ="""
 """
 code ="""
 <iframe
-  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1&code=from sympy import * , init_session() ,
-solve(2*x-3)
+  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1&code=from sympy import *
  "
   width="100%"
   height="500px"
