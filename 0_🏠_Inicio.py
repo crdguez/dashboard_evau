@@ -24,3 +24,10 @@ st.write(df_datos.tags.str.split(',', expand=True))
 df_tags=df_datos.tags.str.split(',', expand=True)
 st.write(list(pd.concat([df_tags[0], df_tags[1]], axis=0).unique()))
 #pd.DataFrame(list(df_datos.tags.split(','))).set_index(0)[1]
+
+<iframe
+  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1"
+  width="100%"
+  height="500px"
+>
+</iframe>
