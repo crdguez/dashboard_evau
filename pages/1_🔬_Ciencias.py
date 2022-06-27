@@ -5,7 +5,7 @@ st.title('EVAU Ciencias')
 
 df_datos = pd.read_csv('datos.csv',sep =';')
 
-st.write(df_datos.enunciado)
+# st.write(df_datos.enunciado)
 
 for ej in df_datos.iterrows() :
     st.header(ej[1].bloque.capitalize())
