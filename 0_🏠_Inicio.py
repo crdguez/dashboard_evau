@@ -25,8 +25,6 @@ st.write(df_datos.tags.str.split(',', expand=True))
 df_tags=df_datos.tags.str.split(',', expand=True)
 st.write(list(pd.concat([df_tags[0], df_tags[1]], axis=0).unique()))
 
-pd.DataFrame(list(df_datos.tags.split(','))).set_index(0)[1]
-
 # lista de los diferentes tags
 
 st.write(list(set([x for xs in df_datos.tags.apply(lambda x: x.split(',')) for x in xs])))
