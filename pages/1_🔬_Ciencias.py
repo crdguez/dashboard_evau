@@ -10,6 +10,6 @@ st.write(df_datos.enunciado)
 #   st.write(str(ej.enunciado))
 
 for ej in df_datos.iterrows() :
-    st.header(ej)
-    st.subheader(ej)
+    st.header(ej[1].bloque)
+    st.subheader(ej[1].anyo)
     st.write(ej)
