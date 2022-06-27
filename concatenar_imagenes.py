@@ -1,3 +1,5 @@
+# Ejecutar el código en jupyterlite
+
 from PIL import Image
 
 def get_concat_v(im1, im2):
