@@ -1,3 +1,2 @@
-itinerario;bloque;tags;enunciado;solucion;imagen
-ciencias;análisis;límites,derivada,continuidad;c_enun1;c_solu1;im1.jpg
-sociales;análisis;límites,derivada,integrales;s_enun1;s_solu1;im2.jpg
+itinerario;anyo;bloque;tags;enunciado;solucion;imagen
+ciencias;2021;análisis;continuidad,extremos relativos;caj01.png;caj01_sol.png
