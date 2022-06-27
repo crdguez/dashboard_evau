@@ -15,4 +15,4 @@ for ej in df_datos.iterrows() :
 #     st.image('img'+ej[1].enunciado)
 
 
-st.image('img/caj01.png')
+st.image('img/caj2101.png')
