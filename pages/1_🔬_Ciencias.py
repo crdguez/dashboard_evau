@@ -12,6 +12,8 @@ for ej in df_datos.iterrows() :
     st.subheader(str(ej[1].anyo) + '-' + str(ej[1].convocatoria).capitalize())
 #     st.subheader(ej[1].anyo)
     st.image('img/'+ej[1].enunciado)
+    with st.expander("Solución"):
+            st.image('img/'+ej[1].solucion)
 
 
-# st.image('img/caj2101.png')
+
