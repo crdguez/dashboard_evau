@@ -5,3 +5,4 @@ st.title('EVAU Ciencias')
 
 df_datos = pd.read_csv('datos.csv',sep =';')
 
+st.write(df_datos.enunciado)
