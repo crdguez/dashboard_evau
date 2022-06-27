@@ -9,7 +9,7 @@ st.write(df_datos.enunciado)
 
 for ej in df_datos.iterrows() :
     st.header(ej[1].bloque)
-#     st.subheader(ej[1].anyo + '-' + ej[1].convocatoria)
+    st.subheader(str(ej[1].anyo) + '-' + str(ej[1].convocatoria))
     st.subheader(ej[1].anyo)
     st.image('img/'+ej[1].enunciado)
 
