@@ -8,9 +8,9 @@ df_datos = pd.read_csv('datos.csv',sep =';')
 st.write(df_datos.enunciado)
 
 for ej in df_datos.iterrows() :
-    st.header(ej[1].bloque)
-    st.subheader(str(ej[1].anyo) + '-' + str(ej[1].convocatoria))
-    st.subheader(ej[1].anyo)
+    st.header(ej[1].bloque.capitalize())
+    st.subheader(str(ej[1].anyo) + '-' + str(ej[1].convocatoria).capitalize())
+#     st.subheader(ej[1].anyo)
     st.image('img/'+ej[1].enunciado)
 
 
