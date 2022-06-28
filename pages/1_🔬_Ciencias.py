@@ -18,9 +18,9 @@ slice = df_datos[df_datos.itinerario == 'ciencias']
 # Filtro bloque
 
 lb=list(slice.bloque.sort_values().unique())
-lb.insert(0,'Todas')
-bl = st.sidebar.selectbox('Bloque:',lb,1)
-slice = slice if bl == 'Todas' else slice[slice.bloque == bl]
+lb.insert(0,'Todos')
+bl = st.sidebar.selectbox('Bloque:',lb,1,format_func (capitalize))
+slice = slice if bl == 'Todos' else slice[slice.bloque == bl]
 
 
 for ej in slice.iterrows() :
