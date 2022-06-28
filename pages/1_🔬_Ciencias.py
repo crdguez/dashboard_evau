@@ -10,14 +10,14 @@ st.sidebar.title('EVAU Ciencias')
 # tm = st.sidebar.selectbox('Temporada:',lt,1)
 # slice = slice if tm == 'Todas' else slice[slice.Temporada == tm]
 
-st.sidebar
 # df_datos = pd.read_csv('datos.csv',sep =';')
 df_datos = pd.read_csv('datos.csv',delimiter =';')
 
+slice = df_datos[df_datos.itinerario == 'ciencias')
 
 # st.write(df_datos.enunciado)
 
-for ej in df_datos.iterrows() :
+for ej in alice.iterrows() :
     st.subheader(ej[1].bloque.capitalize()+'-'+str(ej[1].convocatoria).capitalize() + '-' + str(ej[1].anyo))
 #     st.subheader(str(ej[1].anyo) + '-' + str(ej[1].convocatoria).capitalize())
 #     st.subheader(ej[1].anyo)
