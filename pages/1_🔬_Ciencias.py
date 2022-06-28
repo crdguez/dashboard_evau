@@ -13,7 +13,7 @@ st.sidebar.title('EVAU Ciencias')
 # df_datos = pd.read_csv('datos.csv',sep =';')
 df_datos = pd.read_csv('datos.csv',delimiter =';')
 
-slice = df_datos[df_datos.itinerario == 'ciencias')
+slice = df_datos[df_datos.itinerario == 'ciencias']
 
 # st.write(df_datos.enunciado)
 
