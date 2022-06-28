@@ -17,7 +17,7 @@ slice = df_datos[df_datos.itinerario == 'ciencias']
 
 # st.write(df_datos.enunciado)
 
-for ej in alice.iterrows() :
+for ej in slice.iterrows() :
     st.subheader(ej[1].bloque.capitalize()+'-'+str(ej[1].convocatoria).capitalize() + '-' + str(ej[1].anyo))
 #     st.subheader(str(ej[1].anyo) + '-' + str(ej[1].convocatoria).capitalize())
 #     st.subheader(ej[1].anyo)
