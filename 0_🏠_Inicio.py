@@ -4,14 +4,14 @@ import pandas as pd
 
 
 st.title('Exámenes de Matemáticas - EVAU ')
-st.write(':arrow_left: A la izquierda tienes el menú')
+st.write(':arrow_left: A la izquierda tienes el menú.')
 
 st.info("""Esta aplicación no es más que un **filtro** de los ejercicios de **matemáticas** que aparecen en [https://matematicasentumundo.es/PAU/PAU.htm](https://matematicasentumundo.es/PAU/PAU.htm)
-      correspondientes a la **EVAU de la Universidad de Zaragoza**""")
+      correspondientes a la **EVAU de la Universidad de Zaragoza**.""")
       
 st.image('portada.png', caption='Imagen de la web Matemáticas en tu Mundo')      
 
-st.write('Muchas gracias por vuestro trabajo, **José María y Julio**')
+st.write('Muchas gracias por vuestro trabajo, **José María y Julio**.')
 
 # #df_datos = pd.read_csv('datos.csv',sep =';',encoding='latin-1')
 # df_datos = pd.read_csv('datos.csv',sep =';')
