@@ -19,7 +19,7 @@ slice = df_datos[df_datos.itinerario == 'ciencias']
 
 lb=list(slice.bloque.sort_values().unique())
 lb.insert(0,'Todos')
-bl = st.sidebar.selectbox('Bloque:',lb,1,format_func (capitalize))
+bl = st.sidebar.selectbox('Bloque:',lb,1,format_func=capitalize)
 slice = slice if bl == 'Todos' else slice[slice.bloque == bl]
 
 
