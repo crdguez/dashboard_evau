@@ -2,9 +2,18 @@ import streamlit as st
 import pandas as pd
 
 st.title('EVAU Ciencias')
+st.sidebar.title('EVAU Ciencias')
 
-df_datos = pd.read_csv('datos.csv',sep =';')
+# Filtro Temporada
+# lt=list(slice.Temporada.sort_values().unique())
+# lt.insert(0,'Todas')
+# tm = st.sidebar.selectbox('Temporada:',lt,1)
+# slice = slice if tm == 'Todas' else slice[slice.Temporada == tm]
+
+st.sidebar
+# df_datos = pd.read_csv('datos.csv',sep =';')
 df_datos = pd.read_csv('datos.csv',delimiter =';')
+
 
 # st.write(df_datos.enunciado)
 
