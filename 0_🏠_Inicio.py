@@ -4,7 +4,7 @@ import pandas as pd
 
 
 st.title('Ejercicios de Matemáticas de la EVAU ')
-st.write(':arrow_left: A la izquierda tienes un filtro')
+st.write(':left: A la izquierda tienes un filtro')
 
 #df_datos = pd.read_csv('datos.csv',sep =';',encoding='latin-1')
 df_datos = pd.read_csv('datos.csv',sep =';')
