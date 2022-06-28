@@ -6,7 +6,7 @@ import pandas as pd
 st.title('Ejercicios de Matemáticas de la EVAU ')
 st.write(':arrow_left: A la izquierda tienes el menú')
 
-st.info('Esta aplicación no es más que un filtro de los ejercicios que aparecen en [https://matematicasentumundo.es/PAU/PAU.htm](https://matematicasentumundo.es/PAU/PAU.htm))
+st.info('Esta aplicación no es más que un filtro de los ejercicios que aparecen en [https://matematicasentumundo.es/PAU/PAU.htm](https://matematicasentumundo.es/PAU/PAU.htm)')
       
 
 #df_datos = pd.read_csv('datos.csv',sep =';',encoding='latin-1')
