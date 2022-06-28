@@ -15,7 +15,13 @@ df_datos = pd.read_csv('datos.csv',delimiter =';')
 
 slice = df_datos[df_datos.itinerario == 'ciencias']
 
-# st.write(df_datos.enunciado)
+# Filtro bloque
+
+lb=list(slice.bloque.sort_values().unique())
+lb.insert(0,'Todas')
+bl = st.sidebar.selectbox('Bloque:',lb,1)
+slice = slice if bl == 'Todas' else slice[slice.bloque == bl]
+
 
 for ej in slice.iterrows() :
     st.subheader(ej[1].bloque.capitalize()+'-'+str(ej[1].convocatoria).capitalize() + '-' + str(ej[1].anyo))
