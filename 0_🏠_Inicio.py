@@ -3,7 +3,7 @@ import pandas as pd
 # import streamlit.components.v1 as components
 
 
-st.title('Ejercicios de Matemáticas de la EVAU ')
+st.title('Exámenes de Matemáticas - EVAU ')
 st.write(':arrow_left: A la izquierda tienes el menú')
 
 st.info('Esta aplicación no es más que un filtro de los ejercicios que aparecen en [https://matematicasentumundo.es/PAU/PAU.htm](https://matematicasentumundo.es/PAU/PAU.htm)')
