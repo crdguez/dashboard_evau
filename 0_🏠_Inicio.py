@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-import streamlit.components.v1 as components
-import PIL
+# import streamlit.components.v1 as components
 
-st.title('Inicio')
-st.write('Esto son pruebas')
+
+st.title('Ejercicios de Matemáticas de la EVAU de la Universidad de Zaragoza')
+st.write(':arrow: A la izquierda tienes un filtro')
 
 #df_datos = pd.read_csv('datos.csv',sep =';',encoding='latin-1')
 df_datos = pd.read_csv('datos.csv',sep =';')
