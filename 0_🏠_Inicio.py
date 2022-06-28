@@ -10,7 +10,8 @@ st.info('Esta aplicación no es más que un **filtro** de los ejercicios que apa
       
 st.image('portada.png', caption='Imagen de la web Matemáticas en tu Mundo')      
 
-st.warning('**Muchas gracias por vuestro trabajo, José María y Julio**')
+st.write('Muchas gracias por vuestro trabajo, **José María y Julio**')
+
 # #df_datos = pd.read_csv('datos.csv',sep =';',encoding='latin-1')
 # df_datos = pd.read_csv('datos.csv',sep =';')
 
