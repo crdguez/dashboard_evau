@@ -3,7 +3,8 @@ import pandas as pd
 # import streamlit.components.v1 as components
 
 
-st.title('Ejercicios de Matemáticas de la EVAU de la Universidad de Zaragoza')
+st.title('Ejercicios de Matemáticas de la EVAU ')
+st.subtitle('Universidad de Zaragoza')
 st.write(':arrow: A la izquierda tienes un filtro')
 
 #df_datos = pd.read_csv('datos.csv',sep =';',encoding='latin-1')
