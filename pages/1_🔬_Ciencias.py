@@ -25,7 +25,7 @@ slice = slice if bl == 'Todos' else slice[slice.bloque == bl]
 lt=list(set([x for xs in df_datos.tags.apply(lambda x: x.split(',')) for x in xs]))
 lt.insert(0,'Todos')
 tg = st.sidebar.selectbox('Tags:',lt,0,format_func=lambda x: str(x).capitalize())
-# slice = slice if bl == 'Todos' else slice[slice.bloque == bl]
+slice = slice if bl == 'Todos' else slice[slice.tags.str.contains('límite')]
 
 
 
