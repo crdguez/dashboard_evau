@@ -35,3 +35,17 @@ Y en el navegador
 Network URL: http://172.17.0.2:8501
 External URL: http://85.60.254.2:8501
 
+
+### Actualizar streamlit en el contenedor
+
+En mi caso, la imagen mi_streamlit era antigua y no tenía la última versión así que he entrado en el docker y he actualizado:
+
+```
+docker exec -it -u 0 evau /bin/bash
+```
+Y una vez en la terminal:
+```
+pip install --upgrade streamlit
+```
+
+
