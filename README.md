@@ -16,10 +16,10 @@ sudo docker build -t crdguez/mi_streamlit:v2 .
 
 ### Lanzando un contendor docker con Streamlit y la aplicacion *main.py*
 
-He creado un fichero *main.py* con el código de *streamlit*. Si no tengo el docker creado, lo creo con el siguiente comando:
+El fichero principal es: 0_🏠_Inicio.py. Creamos el docker con el siguiente comando:
 
 ```
-docker run -it -p 8501:8501 --name natacion -v $PWD:/app crdguez/mi_streamlit:v2 main.py
+docker run -it -p 8501:8501 --name evau -v $PWD:/app crdguez/mi_streamlit:v2 0_🏠_Inicio.py
 
 ```
 
@@ -27,7 +27,7 @@ Una vez creado podemos lanzarlo yendo desde un terminal:
 
 
 ```
-docker start natacion
+docker start evau
 
 ```
 Y en el navegador
