@@ -1,6 +1,6 @@
 # Dashboard evau (En contrucción)
 
-App con [Streamlit](https://streamlit.io/) para ver ejercicios de Evau
+App con [Streamlit](https://streamlit.io/) para ver ejercicios de Evau. Está desplegado en [https://crdguez-dashboard-evau-0--inicio-mo2poi.streamlitapp.com/](https://crdguez-dashboard-evau-0--inicio-mo2poi.streamlitapp.com/).
 
 # Uso con Docker
 
