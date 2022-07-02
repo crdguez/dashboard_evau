@@ -1,4 +1,4 @@
-# Ejecutar el código en jupyterlite
+# Ejecutar el código en jupyterlite. Para descargar la imagen concatenada desde jupyterlite, abrir la imagen y sobre ella botón derecho del ratón y descargar.
 
 from PIL import Image
 
