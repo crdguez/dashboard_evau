@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 # import streamlit.components.v1 as components
 
-st.set_page_config(page_title='Matemáticas EVAU', page_icon=':page_facing_up:', layout="wide", initial_sidebar_state="expanded", menu_items=None)
+#st.set_page_config(page_title='Matemáticas EVAU', page_icon=':page_facing_up:', layout="wide", initial_sidebar_state="expanded", menu_items=None)
+st.set_page_config(
+    page_title='Laboratorio de funciones',
+    page_icon="🧊",
+    layout='wide')
 
 
 st.title('Exámenes de Matemáticas - EVAU :page_facing_up:')
