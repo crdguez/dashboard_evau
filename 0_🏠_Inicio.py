@@ -15,7 +15,7 @@ st.markdown("![Foo](portada.png)(http://google.com.au/)")
 
 st.markdown('''
     <a href="https://docs.streamlit.io">
-        <img src='portada.png' />
+        <img src='./portada.png' />
     </a>''',
     unsafe_allow_html=True
 )
