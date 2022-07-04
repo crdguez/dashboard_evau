@@ -11,14 +11,6 @@ st.info("""Esta aplicación no es más que un **filtro** de los ejercicios de **
 st.write("""""")
       
 st.image('portada.png', caption='Imagen de la web Matemáticas en tu Mundo') 
-st.markdown("![Foo](portada.png)(http://google.com.au/)")
-
-st.markdown('''
-    <a href="https://docs.streamlit.io">
-        <img src='./portada.png' />
-    </a>''',
-    unsafe_allow_html=True
-)
 
 st.write('Muchas gracias por vuestro trabajo, **José María y Julio**.')
 
