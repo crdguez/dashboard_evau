@@ -6,7 +6,8 @@ import pandas as pd
 st.set_page_config(
     page_title='Matemáticas EVAU',
     page_icon=":shark:",
-    layout='wide')
+#     layout='wide'
+    )
 
 
 st.title('Exámenes de Matemáticas - EVAU :page_facing_up:')
