@@ -4,8 +4,8 @@ import pandas as pd
 
 #st.set_page_config(page_title='Matemáticas EVAU', page_icon=':page_facing_up:', layout="wide", initial_sidebar_state="expanded", menu_items=None)
 st.set_page_config(
-    page_title='Laboratorio de funciones',
-    page_icon="🧊",
+    page_title='Matemáticas EVAU',
+    page_icon=":shark:",
     layout='wide')
 
 
